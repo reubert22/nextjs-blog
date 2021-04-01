@@ -19,6 +19,7 @@ export default function About() {
           including versions of Lorem Ipsum.
         </span>
       </div>
+      <div className={styles.background_img} />
     </div>
   );
 }
