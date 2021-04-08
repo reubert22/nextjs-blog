@@ -12,23 +12,7 @@
   color: #e6dd3b;
 }
 
-.container_social_media {
-  height: 40px;
-  width: 115px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 @media (min-width: 768px) {
-  .container_social_media {
-    height: 40px;
-    width: 135px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   .header_name_text {
     font-family: "vcr";
     font-size: 25px;
