@@ -9,14 +9,12 @@
 .header_name_text {
   font-family: "vcr";
   font-size: 18px;
-  color: #e6dd3b;
+  color: var(--primary-yellow);
 }
 
 @media (min-width: 768px) {
   .header_name_text {
-    font-family: "vcr";
     font-size: 25px;
     letter-spacing: 1px;
-    color: #e6dd3b;
   }
 }

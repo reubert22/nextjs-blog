@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 55px);
-  background-color: #000;
+  background-color: var(--black);
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
-  box-shadow: 5px 8px #88888812;
+  box-shadow: 5px 8px var(--default-box-shadow-color);
 }
 
 .container_image {
@@ -29,7 +29,7 @@
 .greeting_greetings_text {
   font-size: 2rem;
   font-family: "vcr";
-  color: #29bb89;
+  color: var(--primary-green);
   text-align: center;
 }
 
@@ -38,7 +38,7 @@
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 5px solid #e6dd3b;
+  border-top: 5px solid var(--primary-yellow);
   animation: arrow-fade 2s infinite;
 }
 

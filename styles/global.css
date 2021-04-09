@@ -1,3 +1,15 @@
+:root {
+  /* project colors */
+  --white: #fff;
+  --black: #000;
+  --background: #16141e;
+  --primary-yellow: #e6dd3b;
+  --primary-green: #29bb89;
+  --secondary-green: #289672;
+  --tertiary-green: #1e6f5c;
+  --default-box-shadow-color: #88888812;
+}
+
 html,
 body {
   padding: 0;
@@ -6,7 +18,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background-color: #16141e;
+  background-color: var(--background);
 }
 
 * {

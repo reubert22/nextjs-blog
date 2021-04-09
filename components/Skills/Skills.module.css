@@ -1,4 +1,4 @@
-.about_me {
+.container_skills {
   background-color: var(--black);
   border-radius: 10px;
   display: flex;
@@ -11,12 +11,12 @@
   min-height: 30vh;
 }
 
-.container_about_me_title {
+.container_skills_title {
   width: 100%;
   z-index: 2;
 }
 
-.container_about_me_title span {
+.container_skills_title span {
   font-family: "vcr";
   display: inline-block;
   font-size: 2em;
@@ -24,11 +24,13 @@
   color: var(--primary-yellow);
 }
 
-.container_about_me_description {
-  z-index: 2;
+.container_skills_items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.container_about_me_description span {
+.container_skills_items span {
   font-family: "vcr";
   font-size: 1em;
   font-weight: 300;
@@ -36,31 +38,25 @@
   color: var(--primary-green);
 }
 
-.background_img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  background-image: url("../../public/images/bg-about.svg");
-  background-position: top;
-  z-index: 1;
-  opacity: 0.3;
+@media (min-width: 768px) {
+  .container_skills_items {
+    height: 300px;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 1024px) {
-  .about_me {
+  .container_skills {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .container_about_me_title {
+  .container_skills_title {
     width: 25%;
     text-align: center;
   }
 
-  .container_about_me_description {
-    padding-top: 10px;
+  .container_skills_items {
     width: 75%;
   }
 }

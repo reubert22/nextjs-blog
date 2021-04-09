@@ -23,7 +23,7 @@
   justify-content: center;
   height: 50%;
   width: 100%;
-  color: #29bb89;
+  color: var(--primary-green);
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -31,7 +31,7 @@
 .author_text,
 .tech_text {
   font-family: "vcr";
-  color: #e6dd3b;
+  color: var(--primary-yellow);
   padding: 0 2px;
 }
 
