@@ -43,6 +43,7 @@
   top: 0;
   right: 0;
   background-image: url("../../public/images/bg-about.svg");
+  border-radius: 10px;
   background-position: top;
   z-index: 1;
   opacity: 0.3;
