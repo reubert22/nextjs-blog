@@ -23,3 +23,67 @@
   margin: 0 0 30px 0;
   color: var(--primary-yellow);
 }
+
+.container_projects_items {
+  width: 100%;
+}
+
+.project_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  position: relative;
+  /* top: 50px; */
+  background: linear-gradient(
+    to right,
+    var(--primary-yellow),
+    var(--secondary-green),
+    var(--tertiary-green)
+  );
+  height: 100px;
+  width: 100%;
+  border-radius: 22px;
+  /* 
+  animation-name: tossing;
+  -webkit-animation-name: tossing;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; */
+}
+
+.project_blob {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* 
+@keyframes tossing {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+@-webkit-keyframes tossing {
+  0% {
+    -webkit-transform: rotate(-1deg);
+  }
+  50% {
+    -webkit-transform: rotate(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(-1deg);
+  }
+} */
