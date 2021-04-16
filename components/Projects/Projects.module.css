@@ -1,0 +1,25 @@
+.container_projects {
+  background-color: var(--black);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+  position: relative;
+  margin-bottom: 15px;
+  box-shadow: 5px 8px var(--default-box-shadow-color);
+  min-height: 30vh;
+}
+
+.container_projects_title {
+  width: 100%;
+  z-index: 2;
+}
+
+.container_projects_title span {
+  font-family: "vcr";
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 0 30px 0;
+  color: var(--primary-yellow);
+}

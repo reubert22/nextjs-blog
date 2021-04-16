@@ -10,6 +10,7 @@ import Header from "../components/Header/Header";
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills/Skills";
+import Projects from "../components/Projects/Projects";
 
 export default function Home({ allPostsData }) {
   return (
@@ -22,6 +23,7 @@ export default function Home({ allPostsData }) {
         <Greetings />
         <About />
         <Skills />
+        <Projects />
         <Footer />
         {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
