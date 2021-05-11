@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 55px);
+  min-height: calc(95vh - 55px);
   background-color: var(--black);
   border-radius: 10px;
   padding: 10px;
@@ -15,19 +15,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
-.container_background_image {
-  position: absolute;
+.container_image p {
+  line-height: 12px;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background-size: 100vh;
+  background-position: center;
+  word-break: break-all;
+  letter-spacing: 0.2px;
+  background-image: url("../../public/images/reubert_another.jpeg");
+  font-weight: initial;
+  font-size: initial;
 }
 
-.borderCircle {
-  border-radius: 9999px;
+.container_image p::before {
+  content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
 }
 
 .greeting_greetings_text {
-  font-size: 2rem;
+  font-size: 30px;
   font-family: "vcr";
   color: var(--primary-green);
   text-align: center;
@@ -56,13 +66,77 @@
 
 @media (min-width: 768px) {
   .greeting_presentation {
+    align-items: flex-start;
+    position: relative;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     padding-top: 25px;
+    min-height: calc(70vh - 55px);
+  }
+
+  .container_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+  }
+
+  .container_image p {
+    background-position: inherit;
+  }
+
+  .container_image p::before {
+    content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
+  }
+
+  .greeting_greetings_text {
+    width: 30%;
+    line-height: 115px;
+    margin: 0px;
   }
 
   .down_indicator {
     height: 100px;
     display: flex;
     align-items: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .greeting_presentation {
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(70vh - 55px);
+  }
+
+  .greeting_greetings_text {
+    width: 100%;
+  }
+
+  .container_image p {
+    background-position: center;
+  }
+
+  .container_image p::before {
+    content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
+  }
+}
+
+@media (min-width: 1440px) {
+  .greeting_presentation {
+    flex-direction: row-reverse;
+  }
+
+  .container_image {
+    align-items: center;
+    width: 50%;
+  }
+
+  .container_image p {
+    background-position: right;
+  }
+  .greeting_greetings_text {
+    width: 50%;
   }
 }
