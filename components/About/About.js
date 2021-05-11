@@ -4,20 +4,29 @@ export default function About() {
   return (
     <div className={styles.about_me}>
       <div className={styles.container_about_me_title}>
-        <span>About Me</span>
+        <span>About</span>
       </div>
       <div className={styles.container_about_me_description}>
-        <span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </span>
+        <p>
+          Hello! I'm Reubert, a Front-End Engineer based in Minas Gerais,
+          Brazil.
+        </p>
+        <p>
+          I love building Web/Mobile Applications using Javascript, ReactJs and
+          React Native. Improving every day to build interactive/re-usable
+          components. I'm a daily learner, curious and open to learning how to
+          solve problems through Code.
+        </p>
+        <p>
+          From the moment I produced "Hello world" in the console of my first
+          application, I knew I was hooked into the world of software
+          development.
+        </p>
+        <p>
+          {" "}
+          Striving to become a better professional than yesterday but less than
+          tomorrow.
+        </p>
       </div>
       <div className={styles.background_img} />
     </div>
