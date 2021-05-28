@@ -11,6 +11,7 @@ import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills/Skills";
 import Projects from "../components/Projects/Projects";
+import SideMenu from "../components/SideMenu/SideMenu";
 
 export default function Home({ allPostsData }) {
   return (
@@ -18,31 +19,38 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className={utilStyles.container_home}>
-        <Header />
-        <Greetings />
-        <About />
-        <Skills />
-        <Projects />
-        <Footer />
-        {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              {id}
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section> */}
+      {/* <div className={utilStyles["outer-wrapper"]}>
+        <div className={utilStyles["wrapper"]}>
+          <div className={utilStyles["slide-one"]}>
+            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+            place where you can encounter the body, mind and spirt balancing and
+            merging them into oneness. Let yoga touch your life through our
+            academy!
+          </div>
+          <div className={utilStyles["slide-two"]}>
+            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+            place where you can encounter the body, mind and spirt balancing and
+            merging them into oneness. Let yoga touch your life through our
+            academy!
+          </div>
+          <div className={utilStyles["slide-three"]}>
+            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+            place where you can encounter the body, mind and spirt balancing and
+            merging them into oneness. Let yoga touch your life through our
+            academy!
+          </div>
+          <div className={utilStyles["slide-four"]}>
+            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+            place where you can encounter the body, mind and spirt balancing and
+            merging them into oneness. Let yoga touch your life through our
+            academy!
+          </div>
+        </div>
+      </div> */}
+      <div className={utilStyles["outer-wrapper"]}>
+        <div className={utilStyles["wrapper"]}>
+          <div className={utilStyles["slide-one"]}></div>
+        </div>
       </div>
     </Layout>
   );

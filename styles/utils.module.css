@@ -51,8 +51,96 @@
   color: #666;
 }
 
-.container_home {
-  padding: 0 15px;
+.container_slider {
+  display: flex;
+  height: 100vh;
+  /* padding: 0 15px; */
+  overflow-x: scroll;
+}
+
+.example_div {
+  height: 100%;
+  width: 100vw;
+  background-color: blue;
 }
 
 /* --- */
+
+/* .slide-one .slide-two,
+.slide-three,
+.slide-four {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.slide-one {
+  background: #efdefe;
+}
+.slide-two {
+  background: #a3f3d3;
+}
+.slide-three {
+  background: #0bbaa0;
+}
+.slide-four {
+  background: #00dfdf;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+} */
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+.slide-one {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.slide-one {
+  background: url("../public/images/bkg2.png");
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  width: 400vw;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.outer-wrapper::-webkit-scrollbar {
+  display: none;
+}
