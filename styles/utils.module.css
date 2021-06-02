@@ -66,67 +66,83 @@
 
 /* --- */
 
-/* .slide-one .slide-two,
+.page-container {
+  height: 100vh;
+  position: absolute;
+
+  background: url("../public/images/background.gif");
+  background-size: 265vw 100vh;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    background-size: 175vw 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    background-size: 125vw 100vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page-container {
+    background-size: 100vw 100vh;
+  }
+}
+
+.bottom-bar {
+  position: relative;
+  width: 100vw;
+  top: 90%;
+}
+
+.bottom-bar,
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.top-bar {
+  position: relative;
+  width: 100vw;
+  bottom: 50px;
+}
+
+.bottom-bar,
+.top-bar {
+  height: 50px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  /* background: antiquewhite; */
+  padding-top: 50px;
+  /* height: calc(100vh - 100px); */
+  /* background: url("../public/images/pic13.jpg");
+  background-size: 200vw 100vh;
+  background-repeat: repeat-x; */
+  /* padding: 100px 0; */
+}
+
+.slide-one,
+.slide-two,
 .slide-three,
 .slide-four {
-  width: 100vw;
+  padding: 0 15px;
   height: 100vh;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-.slide-one {
-  background: #efdefe;
-}
-.slide-two {
-  background: #a3f3d3;
-}
-.slide-three {
-  background: #0bbaa0;
-}
-.slide-four {
-  background: #00dfdf;
-}
-
-.outer-wrapper {
-  width: 100vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-} */
-
-/* body {
-  margin: 0;
-  padding: 0;
-} */
-.slide-one {
   width: 100vw;
-  height: 100vh;
-}
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-
-.slide-one {
-  background: url("../public/images/bkg2.png");
-  background-size: auto 100vh;
-  background-repeat: repeat-x;
-  width: 400vw;
+  color: #fff;
 }
 
 .outer-wrapper {

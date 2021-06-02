@@ -19,37 +19,58 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <div className={utilStyles["outer-wrapper"]}>
-        <div className={utilStyles["wrapper"]}>
-          <div className={utilStyles["slide-one"]}>
-            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
-            place where you can encounter the body, mind and spirt balancing and
-            merging them into oneness. Let yoga touch your life through our
-            academy!
-          </div>
-          <div className={utilStyles["slide-two"]}>
-            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
-            place where you can encounter the body, mind and spirt balancing and
-            merging them into oneness. Let yoga touch your life through our
-            academy!
-          </div>
-          <div className={utilStyles["slide-three"]}>
-            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
-            place where you can encounter the body, mind and spirt balancing and
-            merging them into oneness. Let yoga touch your life through our
-            academy!
-          </div>
-          <div className={utilStyles["slide-four"]}>
-            Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
-            place where you can encounter the body, mind and spirt balancing and
-            merging them into oneness. Let yoga touch your life through our
-            academy!
+      <div className={utilStyles["page-container"]}>
+        <div className={utilStyles["outer-wrapper"]}>
+          <div className={utilStyles["wrapper"]}>
+            <div className={utilStyles["slide-one"]} id="slide-one">
+              <p>
+                Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+                place where you can encounter the body, mind and spirt balancing
+                and merging them into oneness. Let yoga touch your life through
+                our academy!
+              </p>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector("#slide-two").scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Click
+              </button>
+            </div>
+            <div className={utilStyles["slide-two"]} id="slide-two">
+              <p>
+                Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+                place where you can encounter the body, mind and spirt balancing
+                and merging them into oneness. Let yoga touch your life through
+                our academy!
+              </p>
+            </div>
+            <div className={utilStyles["slide-three"]} id="slide-three">
+              <p>
+                Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+                place where you can encounter the body, mind and spirt balancing
+                and merging them into oneness. Let yoga touch your life through
+                our academy!
+              </p>
+            </div>
+            <div className={utilStyles["slide-four"]} id="slide-four">
+              <p>
+                Be yourself at our Academy of Yin Mindfulness & Sound Therapy, a
+                place where you can encounter the body, mind and spirt balancing
+                and merging them into oneness. Let yoga touch your life through
+                our academy!
+              </p>
+            </div>
           </div>
         </div>
-      </div> */}
-      <div className={utilStyles["outer-wrapper"]}>
-        <div className={utilStyles["wrapper"]}>
-          <div className={utilStyles["slide-one"]}></div>
+        <div className={utilStyles["bottom-bar"]}>
+          <p>Bottom Bar</p>
+        </div>
+        <div className={utilStyles["top-bar"]}>
+          <p>Top Bar</p>
         </div>
       </div>
     </Layout>
