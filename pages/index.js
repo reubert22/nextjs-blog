@@ -12,6 +12,7 @@ import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills/Skills";
 import Projects from "../components/Projects/Projects";
 import SideMenu from "../components/SideMenu/SideMenu";
+import TopBar from "../components/TopBar/TopBar";
 
 export default function Home({ allPostsData }) {
   return (
@@ -20,7 +21,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <div className={utilStyles["page-container"]}>
-        <div className={utilStyles["outer-wrapper"]}>
+        <div className={utilStyles["outer-wrapper"]} id="outer-wrapper">
           <div className={utilStyles["wrapper"]}>
             <div className={utilStyles["slide-one"]} id="slide-one">
               <p>
@@ -67,11 +68,9 @@ export default function Home({ allPostsData }) {
           </div>
         </div>
         <div className={utilStyles["bottom-bar"]}>
-          <p>Bottom Bar</p>
+          <p className={utilStyles["bottom-bar-indicator"]}>••••</p>
         </div>
-        <div className={utilStyles["top-bar"]}>
-          <p>Top Bar</p>
-        </div>
+        <TopBar siteTitle={siteTitle} />
       </div>
     </Layout>
   );

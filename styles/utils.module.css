@@ -32,8 +32,7 @@
   top: 90%;
 }
 
-.bottom-bar,
-.top-bar {
+.bottom-bar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,15 +40,12 @@
   color: #fff;
 }
 
-.top-bar {
-  position: relative;
-  width: 100vw;
-  bottom: 50px;
+.bottom-bar {
+  height: 50px;
 }
 
-.bottom-bar,
-.top-bar {
-  height: 50px;
+.bottom-bar-indicator {
+  font-size: 22px;
 }
 
 .wrapper {
