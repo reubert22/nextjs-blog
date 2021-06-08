@@ -1,12 +1,12 @@
-import style from "./Greetings.module.css";
+import styles from "./Greetings.module.css";
 
 export default function Greetings() {
   return (
-    <div className={style.greeting_presentation}>
-      <div className={style.container_image}>
+    <div className={styles["greeting-presentation"]}>
+      <div className={styles["container-image"]}>
         <p />
       </div>
-      <p className={style.greeting_greetings_text}>
+      <p className={styles["greeting-greetings-text"]}>
         Hello there, welcome to my world!
       </p>
     </div>

@@ -1,4 +1,4 @@
-.container_projects {
+.container-projects {
   background-color: var(--black);
   border-radius: 10px;
   display: flex;
@@ -11,12 +11,12 @@
   min-height: 30vh;
 }
 
-.container_projects_title {
+.container-projects-title {
   width: 100%;
   z-index: 2;
 }
 
-.container_projects_title span {
+.container-projects-title span {
   font-family: "vcr";
   display: inline-block;
   font-size: 2em;

@@ -1,12 +1,10 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
 
-const name = "Hello! I'm Reubert Barbosa";
 export const siteTitle = "Reubert Barbosa";
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Reubert Barbosa life portfolio's" />

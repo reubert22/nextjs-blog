@@ -1,4 +1,4 @@
-.about_me {
+.about-me {
   background-color: var(--black);
   border-radius: 10px;
   display: flex;
@@ -11,12 +11,12 @@
   min-height: 30vh;
 }
 
-.container_about_me_title {
+.container-about-me-title {
   width: 100%;
   z-index: 2;
 }
 
-.container_about_me_title span {
+.container-about-me-title span {
   font-family: "vcr";
   display: inline-block;
   font-size: 2em;
@@ -24,11 +24,11 @@
   color: var(--primary-yellow);
 }
 
-.container_about_me_description {
+.container-about-me-description {
   z-index: 2;
 }
 
-.container_about_me_description p {
+.container-about-me-description p {
   font-family: "vcr";
   font-size: 1em;
   font-weight: 300;
@@ -36,7 +36,7 @@
   color: var(--primary-green);
 }
 
-.background_img {
+.background-img {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -50,17 +50,17 @@
 }
 
 @media (min-width: 1024px) {
-  .about_me {
+  .about-me {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .container_about_me_title {
+  .container-about-me-title {
     width: 25%;
     text-align: center;
   }
 
-  .container_about_me_description {
+  .container-about-me-description {
     padding-top: 10px;
     width: 75%;
   }

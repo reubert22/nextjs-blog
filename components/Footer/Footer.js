@@ -1,11 +1,12 @@
 import Image from "next/image";
+
 import ExternalLink from "../ExternalLink/ExternalLink";
-import style from "./Footer.module.css";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <div className={style.container_footer}>
-      <div className={style.container_footer_medias}>
+    <div className={styles["container-footer"]}>
+      <div className={styles["container-footer-medias"]}>
         <ExternalLink href="https://www.linkedin.com/in/reubertbarbosa/">
           <Image
             src="/images/linkedin.svg"
@@ -40,9 +41,10 @@ export default function Footer() {
           />
         </ExternalLink>
       </div>
-      <div className={style.container_footer_copy}>
-        © 2021,<span className={style.author_text}> Reubert. </span> Built with
-        <span className={style.tech_text}> (Next and React)Js</span>
+      <div className={styles["container-footer-copy"]}>
+        © 2021,<span className={styles["author-text"]}> Reubert. </span> Built
+        with
+        <span className={styles["tech-text"]}> (Next and React)Js</span>
       </div>
     </div>
   );

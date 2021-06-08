@@ -1,4 +1,4 @@
-.greeting_presentation {
+.greeting-presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,13 +11,13 @@
   box-shadow: 5px 8px var(--default-box-shadow-color);
 }
 
-.container_image {
+.container-image {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container_image p {
+.container-image p {
   line-height: 12px;
   -webkit-background-clip: text;
   background-attachment: fixed;
@@ -32,18 +32,18 @@
   font-size: initial;
 }
 
-.container_image p::before {
+.container-image p::before {
   content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
 }
 
-.greeting_greetings_text {
+.greeting-greetings-text {
   font-size: 30px;
   font-family: "vcr";
   color: var(--primary-green);
   text-align: center;
 }
 
-.arrow_down {
+.arrow-down {
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
@@ -65,7 +65,7 @@
 }
 
 @media (min-width: 768px) {
-  .greeting_presentation {
+  .greeting-presentation {
     align-items: flex-start;
     position: relative;
     flex-direction: row-reverse;
@@ -74,7 +74,7 @@
     min-height: calc(70vh - 55px);
   }
 
-  .container_image {
+  .container-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,21 +82,21 @@
     position: relative;
   }
 
-  .container_image p {
+  .container-image p {
     background-position: inherit;
   }
 
-  .container_image p::before {
+  .container-image p::before {
     content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
   }
 
-  .greeting_greetings_text {
+  .greeting-greetings-text {
     width: 30%;
     line-height: 115px;
     margin: 0px;
   }
 
-  .down_indicator {
+  .down-indicator {
     height: 100px;
     display: flex;
     align-items: flex-end;
@@ -104,39 +104,39 @@
 }
 
 @media (min-width: 1024px) {
-  .greeting_presentation {
+  .greeting-presentation {
     align-items: center;
     flex-direction: column;
     min-height: calc(70vh - 55px);
   }
 
-  .greeting_greetings_text {
+  .greeting-greetings-text {
     width: 100%;
   }
 
-  .container_image p {
+  .container-image p {
     background-position: center;
   }
 
-  .container_image p::before {
+  .container-image p::before {
     content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
   }
 }
 
 @media (min-width: 1440px) {
-  .greeting_presentation {
+  .greeting-presentation {
     flex-direction: row-reverse;
   }
 
-  .container_image {
+  .container-image {
     align-items: center;
     width: 50%;
   }
 
-  .container_image p {
+  .container-image p {
     background-position: right;
   }
-  .greeting_greetings_text {
+  .greeting-greetings-text {
     width: 50%;
   }
 }

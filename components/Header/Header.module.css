@@ -1,4 +1,4 @@
-.container_header {
+.container-header {
   padding: 0 10px;
   display: flex;
   flex-direction: row;
@@ -6,14 +6,14 @@
   justify-content: space-between;
 }
 
-.header_name_text {
+.header-name-text {
   font-family: "vcr";
   font-size: 18px;
   color: var(--primary-yellow);
 }
 
 @media (min-width: 768px) {
-  .header_name_text {
+  .header-name-text {
     font-size: 25px;
     letter-spacing: 1px;
   }

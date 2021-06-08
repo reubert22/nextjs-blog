@@ -2,11 +2,11 @@ import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <div className={styles.about_me}>
-      <div className={styles.container_about_me_title}>
+    <div className={styles["about-me"]}>
+      <div className={styles["container-about-me-title"]}>
         <span>About</span>
       </div>
-      <div className={styles.container_about_me_description}>
+      <div className={styles["container-about-me-description"]}>
         <p>
           Hello! I'm Reubert, a Front-End Engineer based in Minas Gerais,
           Brazil.
@@ -30,7 +30,7 @@ export default function About() {
         </p>
         <p> Striving to become a better professional every day.</p>
       </div>
-      <div className={styles.background_img} />
+      <div className={styles["background-img"]} />
     </div>
   );
 }
