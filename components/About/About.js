@@ -12,9 +12,9 @@ export default function About() {
           Brazil.
         </p>
         <p>
-          I love building Web/Mobile Applications using Javascript, ReactJs and
-          React Native. Improving every day to build interactive/re-usable
-          components. I'm a daily learner, curious and open to learning how to
+          I love building Web/Mobile Applications using Javascript, ReactJs, and
+          React Native. Improving every day to build interactive/reusable
+          components. I'm a daily learner, curious, and open to learning how to
           solve problems through Code.
         </p>
         <p>
@@ -23,10 +23,12 @@ export default function About() {
           development.
         </p>
         <p>
-          {" "}
-          Striving to become a better professional than yesterday but less than
-          tomorrow.
+          Outside this developer world, I like to hang out with my friends and
+          girlfriend to have some beer, talk, and have fun. I also like to ride
+          my bike and motorcycle (2 wheels for life). You can also find me on
+          Instagram (@barbosa_reubert).
         </p>
+        <p> Striving to become a better professional every day.</p>
       </div>
       <div className={styles.background_img} />
     </div>
