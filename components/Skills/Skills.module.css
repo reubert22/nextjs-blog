@@ -59,4 +59,8 @@
   .container-skills-items {
     width: 75%;
   }
+
+  .container-skills-items span {
+    width: 50%;
+  }
 }

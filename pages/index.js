@@ -8,6 +8,7 @@ import Layout, { siteTitle } from "../components/Layout/layout";
 import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import styles from "../styles/utils.module.css";
+import Experience from "../components/Experience/Experience";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Greetings />
         <About />
         <Skills />
+        <Experience />
         {/* Add Projects in the future */}
         {/* <Projects /> */}
         <Footer />
