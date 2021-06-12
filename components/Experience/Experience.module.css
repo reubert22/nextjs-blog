@@ -13,7 +13,6 @@
 
 .container-experience-title {
   width: 100%;
-  z-index: 2;
 }
 
 .container-experience-title span {
@@ -35,9 +34,6 @@
   flex-direction: column;
   width: 100%;
   margin: 0 0 30px 0;
-}
-
-.experience-item-title-date {
 }
 
 .experience-item-title-date .title {
@@ -89,6 +85,7 @@
   }
 
   .container-experience-items {
+    padding-top: 10px;
     width: 75%;
   }
 

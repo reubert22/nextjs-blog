@@ -26,7 +26,11 @@ export default function About() {
           Outside this developer world, I like to hang out with my friends and
           girlfriend to have some beer, talk, and have fun. I also like to ride
           my bike and motorcycle (2 wheels for life). You can also find me on
-          Instagram (@barbosa_reubert).
+          Instagram{" "}
+          <a href="https://www.instagram.com/barbosa_reubert/" target="_blank">
+            (@barbosa_reubert)
+          </a>
+          .
         </p>
         <p> Striving to become a better professional every day.</p>
       </div>

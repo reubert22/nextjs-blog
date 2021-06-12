@@ -36,6 +36,12 @@
   color: var(--primary-green);
 }
 
+.container-about-me-description a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-yellow);
+}
+
 .background-img {
   position: absolute;
   height: 100%;
