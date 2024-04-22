@@ -1,11 +1,8 @@
-import Head from "next/head";
-
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Greetings from "../components/Greetings/Greetings";
 import Header from "../components/Header/Header";
-import Layout, { siteTitle } from "../components/Layout/layout";
-import Projects from "../components/Projects/Projects";
+import Layout from "../components/Layout/layout";
 import Skills from "../components/Skills/Skills";
 import styles from "../styles/utils.module.css";
 import Experience from "../components/Experience/Experience";
@@ -13,9 +10,6 @@ import Experience from "../components/Experience/Experience";
 export default function Home() {
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <div className={styles["container-home"]}>
         <Header />
         <Greetings />

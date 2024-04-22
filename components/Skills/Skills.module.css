@@ -25,9 +25,9 @@
 }
 
 .container-skills-items {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container-skills-items span {
@@ -38,10 +38,15 @@
   color: var(--primary-green);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container-skills-items {
-    height: 300px;
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-skills-items span {
+    width: 50%;
   }
 }
 

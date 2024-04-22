@@ -3,12 +3,12 @@ import styles from "./Experience.module.css";
 
 export default function Experience() {
   return (
-    <div className={styles["container-experience"]}>
+    <div id="experience" className={styles["container-experience"]}>
       <div className={styles["container-experience-title"]}>
         <span>Experience</span>
       </div>
       <div className={styles["container-experience-items"]}>
-        {experience.reverse().map((item) => (
+        {experience.map((item) => (
           <div
             key={`experience-${item.id}-${item.role}`}
             className={styles["experience-items"]}

@@ -24,12 +24,12 @@ export default function Footer() {
             alt="instagram social media"
           />
         </ExternalLink>
-        <ExternalLink href="https://twitter.com/ReubertBarbosa">
+        <ExternalLink href="https://stackoverflow.com/users/10327939/reubert-barbosa">
           <Image
-            src="/images/twitter.svg"
+            src="/images/stackoverflow.svg"
             height={28}
             width={28}
-            alt="twitter social media"
+            alt="stackoverflow social media"
           />
         </ExternalLink>
         <ExternalLink href="https://github.com/reubert22">
@@ -42,9 +42,8 @@ export default function Footer() {
         </ExternalLink>
       </div>
       <div className={styles["container-footer-copy"]}>
-        © 2021,<span className={styles["author-text"]}> Reubert. </span> Built
-        with
-        <span className={styles["tech-text"]}> (Next and React)Js</span>
+        © 2021, <span className={styles["author-text"]}>Reubert. </span> Built
+        with <span className={styles["tech-text"]}>(Next and React)Js</span>
       </div>
     </div>
   );

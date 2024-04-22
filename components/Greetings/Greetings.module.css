@@ -8,7 +8,6 @@
   position: relative;
   margin-bottom: 15px;
   box-shadow: 5px 8px var(--default-box-shadow-color);
-  min-height: 30vh;
 }
 
 .container-image {
@@ -36,20 +35,43 @@
   content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
 }
 
-.greeting-greetings-text {
-  font-size: 30px;
+.container-greeting {
+  width: 50%;
+  padding: 0 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 46px;
   font-family: "vcr";
   color: var(--primary-green);
   text-align: center;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-.arrow-down {
+.role {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  color: var(--primary-green);
+}
+
+.role .arrow-down {
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 5px solid var(--primary-yellow);
   animation: arrow-fade 2s infinite;
+}
+
+.location {
+  display: flex;
+  color: var(--primary-yellow);
 }
 
 @keyframes arrow-fade {
@@ -65,15 +87,6 @@
 }
 
 @media (min-width: 768px) {
-  .greeting-presentation {
-    align-items: flex-start;
-    position: relative;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    padding-top: 25px;
-    min-height: calc(70vh - 55px);
-  }
-
   .container-image {
     display: flex;
     align-items: center;
@@ -90,12 +103,6 @@
     content: "console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');";
   }
 
-  .greeting-greetings-text {
-    width: 30%;
-    line-height: 115px;
-    margin: 0px;
-  }
-
   .down-indicator {
     height: 100px;
     display: flex;
@@ -108,10 +115,6 @@
     align-items: center;
     flex-direction: column;
     min-height: calc(70vh - 55px);
-  }
-
-  .greeting-greetings-text {
-    width: 100%;
   }
 
   .container-image p {
@@ -135,8 +138,5 @@
 
   .container-image p {
     background-position: right;
-  }
-  .greeting-greetings-text {
-    width: 50%;
   }
 }

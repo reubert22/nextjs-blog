@@ -36,6 +36,17 @@
   color: var(--primary-green);
 }
 
+.container-about-me-description .highlight {
+  color: var(--primary-yellow);
+}
+
+.container-about-me-description .italic {
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--primary-green);
+}
+
 .container-about-me-description a {
   text-decoration: none;
   cursor: pointer;

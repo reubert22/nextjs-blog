@@ -13,6 +13,7 @@ export default function Layout({ children }) {
           content="https://barbosa-reubert-blog.vercel.app/"
         />
         <meta name="og:title" content={siteTitle} />
+        <title>{siteTitle}</title>
       </Head>
       <main>{children}</main>
     </div>

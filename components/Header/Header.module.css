@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .header-name-text {
@@ -12,9 +12,25 @@
   color: var(--primary-yellow);
 }
 
+.menus .item {
+  font-family: "vcr";
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 5px;
+  color: var(--primary-yellow);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .header-name-text {
     font-size: 25px;
     letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menus .item {
+    display: none;
   }
 }
