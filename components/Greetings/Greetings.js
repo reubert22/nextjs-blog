@@ -7,6 +7,15 @@ export default function Greetings() {
       <div className={styles["container-image"]}>
         <p />
       </div>
+
+      <Image
+        src="/images/profile.jpeg"
+        height={120}
+        width={120}
+        alt="Profile image"
+        objectFit="contain"
+        className={styles["container-image-profile"]}
+      />
       <div className={styles["container-greeting"]}>
         <p className={styles["name"]}>Reubert Barbosa</p>
         <p className={styles["role"]}>Front End Developer</p>
